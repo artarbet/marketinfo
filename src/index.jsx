@@ -1,21 +1,9 @@
-import "babel-polyfill";
 import React from "react";
-import ReactDOM from "react-dom";
+import { render } from "react-dom";
+import App from "./Coins/components/App";
 
-import { create as createJss } from "jss";
-import camelCase from "jss-camel-case";
-import globalStyles from "jss-global";
-import vendorPrefixer from "jss-vendor-prefixer";
-import { JssProvider } from "react-jss";
+render(<App />, document.getElementById("root"));
 
-import App from "./views/App";
-
-const jss = createJss();
-jss.use(vendorPrefixer(), camelCase(), globalStyles());
-
-ReactDOM.render(
-  <JssProvider jss={jss}>
-    <App />
-  </JssProvider>,
-  document.getElementById("root")
-);
+if (process.env.NODE_ENV === "production") {
+  require("offline-plugin/runtime").install();
+}

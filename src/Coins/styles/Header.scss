@@ -1,0 +1,39 @@
+header {
+  nav {
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+
+    .navbar-text {
+      padding-bottom: 0.3em;
+    }
+
+    span.title {
+      font-size: 12px;
+      margin-bottom: -4px;
+    }
+    span.btc-price {
+      font-size: 22px;
+    }
+  }
+
+  &.fixed-top ~ * {
+    padding-top: 185px;
+    // Small devices (landscape phones, 576px and up)
+    @media (min-width: 576px) {
+      padding-top: 140px;
+    }
+
+    // Medium devices (tablets, 768px and up)
+    @media (min-width: 768px) {
+      padding-top: 90px;
+    }
+
+    // Large devices (desktops, 992px and up)
+    @media (min-width: 992px) {
+    }
+
+    // Extra large devices (large desktops, 1200px and up)
+    @media (min-width: 1200px) {
+    }
+  }
+}
