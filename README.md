@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./src/logo.png" width="150px" /> 
+  <img src="./src/asset/logo.png" width="150px" /> 
 </p>
 
 <h1 align="center">React dApp Project | MarketInfo</h1>
@@ -15,6 +15,10 @@
   <a href='https://github.com/prettier/prettier'>
     <img src='https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat'>
   </a>
+</p>
+
+<p align="center">
+  <img src="./src/asset/screenshot.png" width="550px" /> 
 </p>
 
 
