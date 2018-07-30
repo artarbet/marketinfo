@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./src/assets/logo.png" width="150px" /> 
+  <img src="./src/logo.png" width="150px" /> 
 </p>
 
 <h1 align="center">React dApp Project | MarketInfo</h1>
